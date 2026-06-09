@@ -543,8 +543,21 @@ function(event){
 
     if(event.key==="Enter"){
 
+
         responderBot();
 
     }
+
+    document
+.querySelector(".hero-btn")
+.addEventListener("click", function(){
+
+ document
+ .getElementById("cortes")
+ .scrollIntoView({
+ behavior:"smooth"
+ });
+
+});
 
 });
